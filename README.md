@@ -43,5 +43,11 @@ import os
 
 path = ''
 ```
-Change the `path` variable to your music folder. I haven't test this for android but
-I'll try it as soon as I can.
+Change the `path` variable to your music folder.
+
+On termux if the `path` were unchanged it will give a `Read-only file system` error.
+to fix that change the path to your music folder or change it into
+```
+/data/data/com.termux/files/home/
+```
+to solve the error
