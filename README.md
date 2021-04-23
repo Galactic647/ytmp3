@@ -25,8 +25,8 @@ ytmp3.py 320 https://www.youtube.com/watch?v=IKKar5SS29E 'Hoshimachi Suisei - Gh
 ```
 $pkg install git
 $pkg install python
-$pkg install youtube_dl
 $pkg install ffmpeg
+$pip install youtube_dl
 $git clone https://github.com/Galactic647/ytmp3
 $cd ytmp3
 $python ytmp3.py [-h] {128,192,256,320} url filename
